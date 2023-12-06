@@ -12,14 +12,13 @@ const About = () => {
         <span className="section__subtitle">My Introduction</span>
 
         <div className="about__container container grid">
-            <img src={AboutImg} alt="About Me" className="about__img" />
-        </div>
-
-        <div className="about__data">
+          <img src={AboutImg} alt="About Me" className="about__img" />
+          
+          <div className="about__data">
             <Info />
 
             <p className="about__description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
 
             <a href={CV} className="button button__flex">Download CV
@@ -49,6 +48,7 @@ const About = () => {
                 ></path>
               </svg>
             </a>
+          </div>
         </div>
     </section>
   )
